@@ -1,4 +1,5 @@
 package model
 
-class UserId {
-}
+data class UserId(
+        val id: Int
+)
