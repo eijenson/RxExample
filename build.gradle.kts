@@ -1,6 +1,6 @@
 plugins {
     application
-    kotlin("jvm") version "1.3.0"
+    kotlin("jvm") version "1.3.11"
 }
 
 application {
@@ -8,9 +8,11 @@ application {
 }
 
 dependencies {
-    compile(kotlin("stdlib"))
-    compile("io.reactivex.rxjava2:rxjava:2.2.0")
-    compile("io.reactivex.rxjava2:rxkotlin:2.2.0")
+    implementation(kotlin("stdlib"))
+    implementation("io.reactivex.rxjava2:rxjava:2.2.0")
+    implementation("io.reactivex.rxjava2:rxkotlin:2.2.0")
+    implementation("com.google.code.gson:gson:2.8.5")
+
 }
 
 repositories {

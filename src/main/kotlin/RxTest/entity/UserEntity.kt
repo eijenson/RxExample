@@ -1,8 +1,8 @@
-package entity
+package RxTest.entity
 
 import io.reactivex.rxkotlin.toObservable
-import model.User
-import model.UserId
+import RxTest.model.User
+import RxTest.model.UserId
 
 data class UserEntity(
         val id: Int,

@@ -1,3 +1,5 @@
+package RxTest
+
 import io.reactivex.Observable
 import io.reactivex.rxkotlin.subscribeBy
 
