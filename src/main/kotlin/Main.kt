@@ -1,6 +1,5 @@
-import GsonTest.ArrayTest
+import floatingPointNumber.FloatingPointNumber
 import RxTest.FlatMap
-import RxTest.NonNull
 
 fun main(args: Array<String>) {
     //RxTest.Zip().run()
@@ -11,4 +10,5 @@ fun main(args: Array<String>) {
     //Test().run()
     //ArrayTest().run()
     FlatMap().run()
+    FloatingPointNumber().run()
 }

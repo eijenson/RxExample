@@ -42,7 +42,7 @@ class NonNull {
 
 data class User(val name: String, val age: Int)
 
-class Intent() {
+class Intent {
     val map = mapOf<String, Any?>("name" to "Tom", "age" to 23)
     fun getStringExtra(key: String): String? {
         try {

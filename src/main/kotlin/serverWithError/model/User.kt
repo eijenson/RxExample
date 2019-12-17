@@ -10,7 +10,7 @@ data class User(
         val birthDay: Date
 )
 
-class UserConverter() {
+class UserConverter {
     fun convert(data: UserApiData): User {
         if (data.id == null) throw IllegalArgumentException("user_id is null")
         return User(
